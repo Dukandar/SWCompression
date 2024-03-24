@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ["5"]
 
-  s.dependency "BitByteData", :git => 'https://github.com/Dukandar/BitByteData.git'
+  s.dependency "BitByteData"
 
   s.subspec "Deflate" do |sp|
     sp.source_files = "Sources/{Deflate/*,Common/*,Common/CodingTree/*}.swift"
